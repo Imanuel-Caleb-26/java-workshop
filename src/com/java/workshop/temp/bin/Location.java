@@ -10,7 +10,6 @@ public class Location {
         private String city;
         private String address;
         private double postalcode;
-        //getters
         public String getName() {
             return name;
         }
@@ -36,7 +35,6 @@ public class Location {
         public double getPostalcode() {
             return postalcode;
         }
-        //setters
         public void setName(String name) {
             this.name = name;
         }
