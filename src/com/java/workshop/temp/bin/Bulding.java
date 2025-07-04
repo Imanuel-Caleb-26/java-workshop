@@ -52,5 +52,13 @@ public class Bulding {
         public void setCloesdatetime(LocalDateTime cloesDatetime) {
             this.cloesDatetime = cloesDatetime;
         }
+
+        public void printDetails() {
+            System.out.println("Building Name: " + name);
+            System.out.println("Area: " + area);
+            System.out.println("Floor: " + floor);
+            System.out.println("Open DateTime: " + openDatetime);
+            System.out.println("Close DateTime: " + cloesDatetime);
+        }
     }        
         
