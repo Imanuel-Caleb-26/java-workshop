@@ -10,6 +10,7 @@ public class Location {
         private String city;
         private String address;
         private double postalcode;
+
         public String getName() {
             return name;
         }
@@ -59,5 +60,18 @@ public class Location {
         public void setPostalcode(double postalcode) {
             this.postalcode = postalcode;
         }
+
+        @Override
+        public String toString() {
+            return "Location { name:" +name +
+                   ", latitude:" + latitude +
+                   ", longitude:" + longitude +
+                   ", description:" + description +
+                   ", country:" + country +
+                   ", city:" + city +
+                   ", address:" + address +
+                   ", postalcode:" + postalcode +
+                   " }"; 
+}
         
 }

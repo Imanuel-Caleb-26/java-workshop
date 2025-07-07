@@ -11,5 +11,11 @@ public class tempertureSensor implements Sensor {
     public float getReading(){
         return temperature;
     }
-    
+
+    @Override
+    public String toString(){
+        return "tempertureSensor{" +
+                "temperature=" + temperature +
+                '}';
+    }
 }

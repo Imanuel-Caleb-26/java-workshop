@@ -33,5 +33,11 @@ public class zone {
             this.dimension = dimension;
         }
 
+        @Override
+        public String toString() {
+            return "zone{ name" + name + 
+                    ", zoneID " + zoneID +
+                    ", type " + type +
+                    ", dimension }" + dimension ;
     }
-
+}

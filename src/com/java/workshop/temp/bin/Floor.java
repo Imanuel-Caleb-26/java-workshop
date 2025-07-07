@@ -19,6 +19,13 @@ public class Floor {
         public void setNumber(double number) {
             this.number = number;
         }
-
+             
+        @Override
+        public String toString() {
+            return "Floor{" +
+                    "name='" + name + '\'' +
+                    ", number=" + number +
+                    '}';
+        }
     }
 

@@ -4,8 +4,8 @@ public class Bulding {
         private String name;
         private String area;
         private Double floor;
-        private LocalDateTime openDatetime;
-        private  LocalDateTime cloesDatetime;
+        private double openDatetime;
+        private double cloesDatetime;
 
         
         public String getName() {
@@ -40,16 +40,16 @@ public class Bulding {
         public void setCloesdatetime(double cloesDatetime) {
             this.cloesDatetime = cloesDatetime;
         }
-        public LocalDateTime getOpendatetime() {
+        public double getOpendatetime() {
             return openDatetime;
         }
-        public LocalDateTime getCloesdatetime() {
+        public double getCloesdatetime() {
             return cloesDatetime;
         }
-        public void setOpendatetime(LocalDateTime openDatetime) {
+        public void setOpendatetime(double openDatetime) {
             this.openDatetime = openDatetime;
         }
-        public void setCloesdatetime(LocalDateTime cloesDatetime) {
+        public void setCloesdatetime(double cloesDatetime) {
             this.cloesDatetime = cloesDatetime;
         }
 
