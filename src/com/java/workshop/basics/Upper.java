@@ -12,9 +12,20 @@ public class Upper {
 
         System.out.println(firstName == lastName);
 
-        String sentance = "this is a code to change the case to upper and check the boolan value";
-        String word[] = sentance.split ("");
 
-        System.out.println("The length of the sentance is: " + word.length);
+        String sentance = "this is a code to change the case. It is a good code to learn.";
+
+        String word[] = sentance.split (" ");
+        System.out.println("The length of the word is: " + word.length);
+
+        String sentances[] = sentance.split("\\."); //*  [\\] use this to split by space then only it consiter                                                             
+        System.out.println("The length of the sentance is: " + sentances.length);
+
+        String chatacter[] = sentance.split("");
+        System.out.println("The length of the character is: " + chatacter.length);
+    
+
+
+      
     }
 }
