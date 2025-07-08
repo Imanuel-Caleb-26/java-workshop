@@ -21,9 +21,7 @@ public class Calculator {
             
         }
         return a / b;
-    }
-
-      
+}     
        public static void main(String[] args) {
                     
           Calculator cal = new Calculator();
@@ -35,3 +33,4 @@ public class Calculator {
 
 
   }
+ n 
