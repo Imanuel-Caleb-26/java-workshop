@@ -1,3 +1,6 @@
+
+
+
 package com.java.workshop.basics;
 
 public class average {
