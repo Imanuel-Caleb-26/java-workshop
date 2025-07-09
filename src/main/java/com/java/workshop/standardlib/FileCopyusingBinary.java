@@ -1,4 +1,4 @@
-package com.java.workshop.Standardlib;
+package com.java.workshop.standardlib;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

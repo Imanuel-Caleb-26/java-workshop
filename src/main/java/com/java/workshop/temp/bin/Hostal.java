@@ -1,6 +1,6 @@
 package com.java.workshop.temp.bin;
 
-public class Hostal extends Bulding {
+public class Hostal extends Building {
      
         private boolean isMessAvailable;
         private int numberOfRooms;

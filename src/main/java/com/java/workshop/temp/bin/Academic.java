@@ -1,6 +1,6 @@
 package com.java.workshop.temp.bin;
 
-public class Academic extends Bulding{
+public class Academic extends Building{
 
     private boolean isLibraryAvailable;
     private boolean isAuditoriumAvailable;
