@@ -4,8 +4,8 @@ public class Stringbuilder {
      
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
-        sb.append(str:"java");
-        sb.append(str:"ṣ")
+        sb.append("java");
+        sb.append("ṣ");
     }
 
 }
