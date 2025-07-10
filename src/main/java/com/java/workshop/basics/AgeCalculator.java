@@ -5,11 +5,11 @@ import java.time.LocalDate;
 public class AgeCalculator {
 
     public static void main(String[] args){
-         Scanner scan = new Scanner(System.in);
+         Scanner scanner = new Scanner(System.in);
 
 
            System.out.println("Enter your of birth year: ");
-           String bday = scan.nextLine();
+           String bday = scanner.nextLine();
            LocalDate currentYear1 = LocalDate.parse(bday);
            int currentYear2 = currentYear1.getYear();
            int currentYear = LocalDate.now().getYear();
