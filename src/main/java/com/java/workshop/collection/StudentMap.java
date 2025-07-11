@@ -12,7 +12,6 @@ public class StudentMap {
         students.put(1004, "Santhosh");
         
         System.out.println(students);
-
         System.out.println(students.keySet());
         System.out.println(students.values());
     }

@@ -24,5 +24,10 @@ public class ListExample {
 
         names.sort(Comparator.naturalOrder());
         System.out.println(names);
+
+        names.sort(Comparator.reverseOrder());
+        System.out.println(names);
+
+    
     }
-}
+}       
