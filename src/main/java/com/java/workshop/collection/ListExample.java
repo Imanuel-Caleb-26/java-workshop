@@ -22,12 +22,11 @@ public class ListExample {
             System.out.println(names.get(i)); 
         }
 
+        
+        names.forEach(String::toUpperCase);
+        names.forEach(System.out::println); // :: method reference
         names.sort(Comparator.naturalOrder());
         System.out.println(names);
-
-        names.sort(Comparator.reverseOrder());
-        System.out.println(names);
-
     
     }
 }       

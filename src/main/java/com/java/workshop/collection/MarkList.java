@@ -2,6 +2,7 @@ package com.java.workshop.collection;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.Collections;
 import java.util.ArrayList;
 
 public class MarkList {
@@ -14,5 +15,8 @@ public class MarkList {
         
         marks.sort(Comparator.reverseOrder());
         System.out.println("Descending order: " + marks);
+
+        System.out.println("Maximum mark: " + Collections.max(marks));
+        System.out.println("Minimum mark: " + Collections.min(marks));
     }
 }
