@@ -17,8 +17,6 @@ public class StudentSet {
         rollno.add(1007);
 
 
-        Collections.
-
         System.out.println(rollno);
         for(Integer roll : rollno){
             System.out.println(roll);

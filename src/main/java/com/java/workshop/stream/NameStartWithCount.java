@@ -13,8 +13,10 @@ public class NameStartWithCount {
         names.add("Logesh");
         names.add("Nowfiya");
 
-        long nameCount = names.stream().filter( name -> name.startsWith("S")).count();
-        System.out.println(nameCount);
+        names.stream()
+            .filter(name -> name.startsWith("S")|| name.startsWith("s"))
+            .map(name -> name.toUpperCase())
+            .forEach(System.out::println);
     }
 
 }
