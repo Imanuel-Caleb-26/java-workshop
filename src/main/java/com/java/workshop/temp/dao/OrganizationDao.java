@@ -12,10 +12,7 @@ public class OrganizationDao {
         } catch (ClassNotFoundException e) {
              e.printStackTrace();
         }
-        // JdbcDataSource h2DataSource = new JdbcDataSource();
-        // h2DataSource.setURL("jdbc:h2:mem:tempdao");
-        // h2DataSource.setUser("sa");
-
+      
         try(Connection connection = DriverManager.getConnection("jdbc:h2:mem:tempdao","sa",null);
             Statement statement = connection.createStatement()) {
             statement.execute("""
