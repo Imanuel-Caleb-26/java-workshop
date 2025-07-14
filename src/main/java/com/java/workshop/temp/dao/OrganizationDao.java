@@ -1,6 +1,5 @@
 package com.java.workshop.temp.dao;
 
-import org.h2.jdbcx.JdbcDataSource;
 import java.sql.Statement;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -27,7 +26,7 @@ public class OrganizationDao {
                     EMAIL VARCHAR(100),
                     CONTACT_NUMBER VARCHAR(100),
                     REGISTRATION_NO INT,
-                    ADDRESS VARCHAR(255)
+                    ADDRESS VARCHAR(255))
                     """);
         } catch (SQLException sqlException) {
             System.out.println("Error creating table:"+ sqlException );
