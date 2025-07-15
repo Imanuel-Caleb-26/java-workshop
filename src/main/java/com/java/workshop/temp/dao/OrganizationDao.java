@@ -4,6 +4,7 @@ import java.sql.Statement;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import com.java.workshop.temp.bin.Orgranaization;
 
 public class OrganizationDao {
     public void createTable (Connection connection){
@@ -21,24 +22,24 @@ public class OrganizationDao {
         } catch (SQLException sqlException) {
             System.out.println("Error creating table:"+ sqlException );
         }
-        public int save(Connection connection, Organization vet){
-            try (PreparedStatement preparedStatement = connection.prepareStatement("""
-                insert info organization(name, website, email, contact_number, 
-                registration_no, address) values(?,?,?,?,?,?)
-            """)){
-                preparedStatement.setString(1,vet.name());
-                preparedStatement.setString(2,vet.website());
-                preparedStatement.setString(3,vet.email());
-                preparedStatement.setInt(4,vet.contactNumber());
-                preparedStatement.setInt(5,vet.registrationNumber());
-                preparedStatement.setString(6,vet.address());
-                preparedStatement.executeUpdate();
+    }
 
-            } catch (SQLException sqlException) {
-                System.out.println("Error inserting into table :"+ sqlException);
-            }
-            return 0;
+    public int save(Connection connection, Orgranaization vet){
+        try (PreparedStatement preparedStatement = connection.prepareStatement("""
+            insert info organization(name, website, email, contact_number, 
+            registration_no, address) values(?,?,?,?,?,?)
+        """)){
+            preparedStatement.setString(1,vet.name());
+            preparedStatement.setString(2,vet.website());
+            preparedStatement.setString(3,vet.email());
+            preparedStatement.setInt(4,vet.contactNumber());
+            preparedStatement.setInt(5,vet.registrationNumber());
+            preparedStatement.setString(6,vet.address());
+            preparedStatement.executeUpdate();
+
+        } catch (SQLException sqlException) {
+            System.out.println("Error inserting into table :"+ sqlException);
         }
-
+        return 0;
     }
 }

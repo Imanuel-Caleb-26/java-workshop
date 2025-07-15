@@ -21,7 +21,10 @@ public class JDBCExample {
         }
         OrganizationDao organizationDao = new OrganizationDao();
         organizationDao.createTable(connection);
-        Orgranaization vet = new Orgranaization("VET","V");
-
+        Orgranaization vet = new Orgranaization("VET","Thindal, Erode",
+        1234567890,"vetias@gmail.com","www.vetias.com",
+        98766543,null);
+        
+        organizationDao.save(connection,vet);
     } 
 }
