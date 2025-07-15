@@ -8,6 +8,7 @@ import com.java.workshop.temp.bin.Orgranaization;
 public class JDBCExample {
 
     public static void main(String[] args) {
+
         Connection connection = null;
         try {
             Class.forName("org.h2.Driver");
@@ -26,5 +27,9 @@ public class JDBCExample {
         98766543,null);
         
         organizationDao.save(connection,vet);
+
+       Orgranaization myOrgranaization = organizationDao.findByName(connection, "VET");
+       System.out.println("My Organization is:" + myOrgranaization);
+
     } 
 }
