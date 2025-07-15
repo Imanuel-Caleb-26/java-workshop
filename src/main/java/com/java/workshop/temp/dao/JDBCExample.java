@@ -21,7 +21,7 @@ public class JDBCExample {
         }
         OrganizationDao organizationDao = new OrganizationDao();
         organizationDao.createTable(connection);
-        Orgranaization vet = new Orgranaization();
+        Orgranaization vet = new Orgranaization("VET","V");
 
     } 
 }
