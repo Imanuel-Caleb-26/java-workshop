@@ -26,7 +26,7 @@ public class OrganizationDao {
 
     public int save(Connection connection, Orgranaization vet){
         try (PreparedStatement preparedStatement = connection.prepareStatement("""
-            insert info organization(name, website, email, contact_number, 
+            insert into organization(name, website, email, contact_number, 
             registration_no, address) values(?,?,?,?,?,?)
         """)){
             preparedStatement.setString(1,vet.name());
