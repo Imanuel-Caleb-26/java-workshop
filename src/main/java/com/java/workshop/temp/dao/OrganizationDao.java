@@ -2,22 +2,12 @@ package com.java.workshop.temp.dao;
 
 import java.sql.Statement;
 import java.sql.Connection;
-import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class OrganizationDao {
-    public void createTable (){
-        try {
-            Class.forName("org.h2.Driver");
-        } catch (ClassNotFoundException e) {
-             e.printStackTrace();
-        }
-        // JdbcDataSource h2DataSource = new JdbcDataSource();
-        // h2DataSource.setURL("jdbc:h2:mem:tempdao");
-        // h2DataSource.setUser("sa");
-
-        try(Connection connection = DriverManager.getConnection("jdbc:h2:mem:tempdao","sa",null);
-            Statement statement = connection.createStatement()) {
+    public void createTable (Connection connection){
+        try(Statement statement = connection.createStatement()) {
             statement.execute("""
                     Create Table Organization(
                     id int AUTO_INCREMENT PRIMARY KEY,
@@ -30,6 +20,28 @@ public class OrganizationDao {
                     """);
         } catch (SQLException sqlException) {
             System.out.println("Error creating table:"+ sqlException );
+        }
+        
+        
+
+
+        public int save(Connection connection, Organization vet){
+            try (PreparedStatement preparedStatement = connection.prepareStatement("""
+                insert info organization(name, website, email, contact_number, 
+                registration_no, address) values(?,?,?,?,?,?)
+            """)){
+                preparedStatement.setString(1,vet.name());
+                preparedStatement.setString(2,vet.website());
+                preparedStatement.setString(3,vet.email());
+                preparedStatement.setInt(4,vet.contactNumber());
+                preparedStatement.setInt(5,vet.registrationNumber());
+                preparedStatement.setString(6,vet.address());
+                preparedStatement.executeUpdate();
+
+            } catch (SQLException sqlException) {
+                System.out.println("Error inserting into table :"+ sqlException);
+            }
+            return 0;
         }
 
     }
