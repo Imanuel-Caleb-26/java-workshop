@@ -6,8 +6,20 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class OrganizationDao {
+<<<<<<< HEAD
     public void createTable (Connection connection){
         try(Statement statement = connection.createStatement()) {
+=======
+    public void createTable (){
+        try {
+            Class.forName("org.h2.Driver");
+        } catch (ClassNotFoundException e) {
+             e.printStackTrace();
+        }
+      
+        try(Connection connection = DriverManager.getConnection("jdbc:h2:mem:tempdao","sa",null);
+            Statement statement = connection.createStatement()) {
+>>>>>>> 512f23b079db6db50efec4259952338d5fa3abb3
             statement.execute("""
                     Create Table Organization(
                     id int AUTO_INCREMENT PRIMARY KEY,
