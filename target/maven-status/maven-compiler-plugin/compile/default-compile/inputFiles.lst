@@ -1,38 +1,50 @@
-e:\java-workshop\src\main\java\com\java\workshop\basics\AgeCalculator.java
-e:\java-workshop\src\main\java\com\java\workshop\basics\array.java
-e:\java-workshop\src\main\java\com\java\workshop\basics\average.java
-e:\java-workshop\src\main\java\com\java\workshop\basics\Calculator.java
-e:\java-workshop\src\main\java\com\java\workshop\basics\Employee.java
-e:\java-workshop\src\main\java\com\java\workshop\basics\FileHandling.java
-e:\java-workshop\src\main\java\com\java\workshop\basics\greetings.java
-e:\java-workshop\src\main\java\com\java\workshop\basics\Localtime.java
-e:\java-workshop\src\main\java\com\java\workshop\basics\Stringbuilder.java
-e:\java-workshop\src\main\java\com\java\workshop\basics\studentInfo.java
-e:\java-workshop\src\main\java\com\java\workshop\basics\Upper.java
-e:\java-workshop\src\main\java\com\java\workshop\basics\WordCount.java
-e:\java-workshop\src\main\java\com\java\workshop\collection\ListExample.java
-e:\java-workshop\src\main\java\com\java\workshop\collection\MarkList.java
-e:\java-workshop\src\main\java\com\java\workshop\collection\StudentMap.java
-e:\java-workshop\src\main\java\com\java\workshop\collection\StudentSet.java
-e:\java-workshop\src\main\java\com\java\workshop\lambda\Square.java
-e:\java-workshop\src\main\java\com\java\workshop\lambda\SquareImp.java
-e:\java-workshop\src\main\java\com\java\workshop\standardlib\CharacterbasedReader.java
-e:\java-workshop\src\main\java\com\java\workshop\standardlib\FileCopyusingBinary.java
-e:\java-workshop\src\main\java\com\java\workshop\stream\Arrayslist.java
-e:\java-workshop\src\main\java\com\java\workshop\stream\ArrayStream.java
-e:\java-workshop\src\main\java\com\java\workshop\stream\EvenOddSplitExample.java
-e:\java-workshop\src\main\java\com\java\workshop\stream\NameStartWithCount.java
-e:\java-workshop\src\main\java\com\java\workshop\stream\StudentListMerge.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\bin\Academic.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\bin\Building.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\bin\Floor.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\bin\Hostal.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\bin\Location.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\bin\Orgranaization.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\bin\Sensor.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\bin\TempdataApplication.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\bin\tempertureSensor.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\bin\zone.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\dao\JDBCExample.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\dao\module-info.java
-e:\java-workshop\src\main\java\com\java\workshop\temp\dao\OrganizationDao.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\AddNumber.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\AgeCalculator.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\array.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\average.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\Calculator.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\Employee.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\FileHandling.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\greetings.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\Localtime.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\Loops.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\OddEven.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\Palindrome.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\Stringbuilder.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\studentInfo.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\Upper.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\basics\WordCount.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\brocode\Classes.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\brocode\Facttoral.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\brocode\MadLimsGame.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\brocode\Maths.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\brocode\Randomes.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\brocode\ShopingCart.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\collection\ListExample.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\collection\Lists.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\collection\MarkList.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\collection\StudentMap.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\collection\StudentSet.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\lambda\LamdaList.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\lambda\Square.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\lambda\SquareImp.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\standardlib\CharacterbasedReader.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\standardlib\FileCopyusingBinary.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\stream\Arrayslist.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\stream\ArrayStream.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\stream\EvenOddSplitExample.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\stream\NameStartWithCount.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\stream\StudentListMerge.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\bin\Academic.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\bin\Building.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\bin\Floor.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\bin\Hostal.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\bin\Location.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\bin\Orgranaization.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\bin\Sensor.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\bin\TempdataApplication.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\bin\tempertureSensor.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\bin\zone.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\dao\JDBCExample.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\dao\module-info.java
+d:\vs codes\java-workshop\src\main\java\com\java\workshop\temp\dao\OrganizationDao.java
