@@ -18,5 +18,16 @@ public class MarkList {
 
         System.out.println("Maximum mark: " + Collections.max(marks));
         System.out.println("Minimum mark: " + Collections.min(marks));
+
+
+        LinkedList<String> cars = new LinkedList<String>();
+        cars.add("Volvo");
+        cars.add("BMW");
+        cars.add("Ford");
+        cars.add("Mazda");
+    
+        // Use removeFirst() remove the first item from the list
+        cars.removeFirst();
+        System.out.println(cars);
     }
 }

@@ -7,4 +7,6 @@ public class WordCount {
         count = words.length;
         return count;
         }
+
+       
 }
