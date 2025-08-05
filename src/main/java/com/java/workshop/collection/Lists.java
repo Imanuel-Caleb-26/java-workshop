@@ -1,5 +1,6 @@
 package com.java.workshop.collection;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 public class Lists {
    
@@ -35,4 +36,14 @@ public class Lists {
             }
         }
     
+
+         LinkedList<String> cars = new LinkedList<String>();
+        cars.add("Volvo");
+        cars.add("BMW");
+        cars.add("Ford");
+        cars.add("Mazda");
+    
+        // Use removeFirst() remove the first item from the list
+        cars.removeFirst();
+        System.out.println(cars);
 }
