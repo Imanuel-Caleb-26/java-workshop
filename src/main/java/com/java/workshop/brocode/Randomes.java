@@ -18,6 +18,7 @@ public class Randomes {
         System.out.println("The interger Random is: " + num );
         System.out.println("The double Random is: " + num1 );
         System.out.println("The Boolen Random is: " + num2 );
+        System.out.println("These are the output.");
 
     }
 

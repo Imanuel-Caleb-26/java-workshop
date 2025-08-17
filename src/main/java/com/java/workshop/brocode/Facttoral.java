@@ -11,6 +11,7 @@ public class Facttoral {
     
         public static void main(String[] args) {
             int number = 5;
+            System.out.println("To Print the factorial:");
             System.out.println("Factorial of " + number + " is: " + factorial(number));
         }
     

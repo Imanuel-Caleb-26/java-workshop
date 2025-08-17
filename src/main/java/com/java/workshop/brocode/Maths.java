@@ -16,6 +16,6 @@ public class Maths {
             result = (double) Math.max(10, 020); // max num
             result = (double) Math.min(10,20); //min num
 
-            System.out.println(result);
+            System.out.println("The results are: " + result);
         }
 }
